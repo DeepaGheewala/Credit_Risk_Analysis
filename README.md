@@ -27,7 +27,7 @@ The dataset had around 68478 low risk loan applications and 347 low risk loan ap
 <p align="center"> <img src="Images/low_high_count.jpg"  align="center" height="100" width="300"></p>
 
 ### 1 Naive Random Oversampling Classification Report
-<p align="center"> <img src="Images/Naive_Random_OverSampling.jpg"  align="center" height="100" width="300"></p>
+<p align="center"> <img src="Images/Naive_Random_OverSampling.jpg"  align="center" height="300" width="500"></p>
 
 * Accuracy Score is 
 
