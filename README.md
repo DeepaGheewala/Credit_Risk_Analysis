@@ -3,7 +3,7 @@
 ## Overview & Purpose
 Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, you’ll need to employ different techniques to train and evaluate models with unbalanced classes. We will use <ins>imbalanced-learn</ins> and <ins>scikit-learn</ins> libraries to build and evaluate models using resampling.
 
-Using the credit card credit dataset from [LendingClub](Resources/LoanStats_2019Q1.csv), and then apply different models as mentioned below to figure out which fits the best.
+Using the credit card credit [dataset](Resources/LoanStats_2019Q1.csv) from **LendingClub**, and then apply different models as mentioned below to figure out which fits the best.
 
 * Oversample the data using the [RandomOverSampler] and SMOTE algorithms.
 * Undersample the data using the ClusterCentroids algorithm.
@@ -22,7 +22,14 @@ Here is little descriptions of what these parameters we would be looking for com
 * <ins>Precision</ins> – Precision is classified as the percentage of relevant examples (true positives) among all the examples predicted to belong in a given class.
 
 ## Results
+The dataset had around 68478 low risk loan applications and 347 low risk loan applications.
 
+<p align="center"> <img src="Images/low_high_count.jpg"  align="center" height="100" width="300"></p>
+
+### 1 Naive Random Oversampling Classification Report
+<p align="center"> <img src="Images/Naive_Random_OverSampling.jpg"  align="center" height="100" width="300"></p>
+
+* Accuracy Score is 
 
 ## Resouces
 https://deepchecks.com/glossary/machine-learning-model-accuracy/
