@@ -84,5 +84,12 @@ In the above summary we notice:
 * **Recall** for High risk 92%. (means 92% of the high risk loans were predicted as low risk.) This means we can correct 92% of data and that is good to know.
 * **F1 score** is very low for High Risk loans ie 16% (Harmonic Mean being 16% means precision and recall are too apart.) The performance of this model is the best so far.
 
+### Summary
+Here is a summary of all the models we discussed above
+
+![Comparison_Report](https://user-images.githubusercontent.com/99355701/175838762-2a6cc8f7-359e-4032-9d5c-c9822f1b5dda.jpg)
+
+From the above comparision its clear that EASY Ensembler Classifier gives the best results and gives the most accuracy score.
+
 ## Resouces
 https://deepchecks.com/glossary/machine-learning-model-accuracy/
