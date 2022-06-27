@@ -33,7 +33,7 @@ The dataset had around 68478 low risk loan applications and 347 low risk loan ap
 In the above summary we notice:
 
 * **Accuraccy Score** is 67%, which may not be much reliable model to go for.
-* **Precesion** for Low risk is 100% which is good (means for low risk the predication is perfect), however Precision for **High Risk** loans(which is more important) is just 1% (means only 1% of data is correctly predicated.).This is alarming as for High Risk loans we would like to have more precision. 
+* **Precesion** for Low risk is 100% which is good (means for low risk the predication is perfect), however Precision for **High Risk** loans is just 1% (means only 1% of data is correctly predicated that it was actually Low Risk but predicted as High Risk.).This is alarming as for High Risk loans we would like to have more precision. 
 * **Recall** for High risk 72%. (means 72% of the high risk loans were predicted as low risk.)
 * **F1 score** is very low for High Risk loans ie 1% (Harmonic Mean being low means precision and recall are too apart. The performance of this model is low.
 
@@ -43,7 +43,7 @@ In the above summary we notice:
 In the above summary we notice:
 
 * **Accuraccy Score** is 66%, which may not be much reliable model to go for.
-* **Precesion** for Low risk is 100% which is good (means for low risk the predication is perfect), however Precision for **High Risk** loans(which is more important) is just 1% (means only 1% of data is correctly predicated.).This is alarming as for High Risk loans we would like to have more precision. 
+* **Precesion** for Low risk is 100% which is good (means for low risk the predication is perfect), however Precision for **High Risk** loans is just 1% (means only 1% of data is correctly predicated.).This is alarming as for High Risk loans we would like to have more precision. 
 * **Recall** for High risk 69%. (means 69% of the high risk loans were predicted as low risk.)
 * **F1 score** is very low for High Risk loans ie 2% (Harmonic Mean being low means precision and recall are too apart.) The performance of this model is not great.
 
@@ -53,7 +53,7 @@ In the above summary we notice:
 In the above summary we notice:
 
 * **Accuraccy Score** is 54%, which is not much reliable model to go for.
-* **Precesion** for Low risk is 100% which is good (means for low risk the predication is perfect), however Precision for **High Risk** loans(which is more important) is just 1% (means only 1% of data is correctly predicated.).This is alarming as for High Risk loans we would like to have more precision. 
+* **Precesion** for Low risk is 100% which is good (means for low risk the predication is perfect), however Precision for **High Risk** loans is just 1% (means only 1% of data is correctly predicated.).This is alarming as for High Risk loans we would like to have more precision. 
 * **Recall** for High risk 69%. (means 69% of the high risk loans were predicted as low risk.)
 * **F1 score** is very low for High Risk loans ie 1% (Harmonic Mean being low means precision and recall are too apart.) The performance of this model is low.
 
@@ -62,7 +62,7 @@ In the above summary we notice:
 
 In the above summary we notice:
 * **Accuraccy Score** is 68%, which may not be much reliable model to go for.
-* **Precesion** for Low risk is 100% which is good (means for low risk the predication is perfect), however Precision for **High Risk** loans(which is more important) is just 1% (means only 1% of data is correctly predicated.).This is alarming as for High Risk loans we would like to have more precision. 
+* **Precesion** for Low risk is 100% which is good (means for low risk the predication is perfect), however Precision for **High Risk** loans is just 1% (means only 1% of data is correctly predicated.).This is alarming as for High Risk loans we would like to have more precision. 
 * **Recall** for High risk 80%. (means 80% of the high risk loans were predicted as low risk.) Its better coverage compared to other models.
 * **F1 score** is very low for High Risk loans ie 2% (Harmonic Mean being low means precision and recall are too apart.) The performance of this model is low.
 
@@ -71,7 +71,7 @@ In the above summary we notice:
 
 In the above summary we notice:
 * **Accuraccy Score** is 78%, which may likely reliable model to go for.
-* **Precesion** for Low risk is 100% which is good (means for low risk the predication is perfect), however Precision for **High Risk** loans(which is more important) is just 3% (means only 3% of data is correctly predicated.).This is little better compared to other models for High Risk loans. However, we would like to have more precision. 
+* **Precesion** for Low risk is 100% which is good (means for low risk the predication is perfect), however Precision for **High Risk** loans is just 3% (means only 3% of data is correctly predicated.).This is little better compared to other models for High Risk loans. However, we would like to have more precision. 
 * **Recall** for High risk 70%. (means 70% of the high risk loans were predicted as low risk.)
 * **F1 score** is very low for High Risk loans ie 6% (Harmonic Mean being low means precision and recall are too apart.) The performance of this model is low but better than previous models.
 
@@ -80,16 +80,17 @@ In the above summary we notice:
 
 In the above summary we notice:
 * **Accuraccy Score** is 93%, which is the best score so far and the most reliable model to go for.
-* **Precesion** for Low risk is 100% which is good (means for low risk the predication is perfect), AS WELL Precision for **High Risk** loans(which is more important) is 9% (means only 9% of data is correctly predicated.).This is performing better compared to other models for High Risk loans. However, we would like to have more precision. 
+* **Precesion** for Low risk is 100% which is good (means for low risk the predication is perfect), AS WELL Precision for **High Risk** loans is 9% (means only 9% of data is correctly predicated as false positive.).This is performing better compared to other models for High Risk loans. However, we would like to have more precision. 
 * **Recall** for High risk 92%. (means 92% of the high risk loans were predicted as low risk.) This means we can correct 92% of data and that is good to know.
-* **F1 score** is very low for High Risk loans ie 16% (Harmonic Mean being 16% means precision and recall are too apart.) The performance of this model is the best so far.
+* **F1 score** is low for High Risk loans ie 16% (Harmonic Mean being 16% means precision and recall does not go hand in hand.)However, The performance of this model is better compared to others so far.
 
-### Summary
+## Summary
 Here is a summary of all the models we discussed above
 
 ![Comparison_Report](https://user-images.githubusercontent.com/99355701/175838762-2a6cc8f7-359e-4032-9d5c-c9822f1b5dda.jpg)
 
 From the above comparision its clear that EASY Ensembler Classifier gives the best results and gives the most accuracy score.
+Thought the 
 
 ## Resouces
 https://deepchecks.com/glossary/machine-learning-model-accuracy/
