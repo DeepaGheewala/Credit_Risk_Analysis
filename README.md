@@ -94,3 +94,7 @@ Thought the
 
 ## Resouces
 https://deepchecks.com/glossary/machine-learning-model-accuracy/
+
+* Code Files
+[credit_risk_ensemble.ipynb](#credit_risk_ensemble.ipynb)
+[credit_risk_resampling.ipynb](#credit_risk_resampling.ipynb)
